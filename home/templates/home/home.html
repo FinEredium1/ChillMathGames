@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Home | Ziggler Games{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="display-4 mb-4">Welcome to Ziggler Games 🎮</h1>
+    <p class="lead">Challenge friends, climb the leaderboard, or just hang out in chat.</p>
+
+    <div class="d-flex justify-content-center flex-wrap gap-3 mt-5">
+        <a href="/lobby/" class="btn btn-lg btn-success">🎯 Enter Lobby</a>
+        <a href="/leaderboard/" class="btn btn-lg btn-warning">🏆 Leaderboard</a>
+        <a href="/chat/" class="btn btn-lg btn-info">💬 Chat Room</a>
+        <a href="/profile/" class="btn btn-lg btn-secondary">👤 My Profile</a>
+    </div>
+
+    <div class="mt-5">
+        <p class="text-muted">Ready to play? Let the games begin!</p>
+    </div>
+</div>
+{% endblock %}
